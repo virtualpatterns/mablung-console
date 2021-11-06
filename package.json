@@ -1,0 +1,38 @@
+{
+  "author": "virtualpatterns.com <code@virtualpatterns.com> (http://www.virtualpatterns.com)",
+  "description": "TBD",
+  "exports": {
+    ".": {
+      "import": "./release/esmodule/index.js",
+      "require": "./release/commonjs/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "release/commonjs/library",
+    "release/commonjs/index.cjs",
+    "release/esmodule/library",
+    "release/esmodule/index.js"
+  ],
+  "license": "GPL-3.0+",
+  "main": "release/commonjs/index.cjs",
+  "name": "@virtualpatterns/mablung-console",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/virtualpatterns/mablung-console"
+  },
+  "type": "module",
+  "version": "0.0.2-85",
+  "dependencies": {
+    "@virtualpatterns/mablung-configuration": "0.0.2-38",
+    "fs-extra": "^10.0.0"
+  },
+  "devDependencies": {
+    "@virtualpatterns/babel-preset-mablung-makefile-environment": "0.0.26-4",
+    "@virtualpatterns/eslint-config-mablung-makefile-environment": "0.0.26-4",
+    "@virtualpatterns/mablung-check-dependency": "0.0.26-23",
+    "@virtualpatterns/mablung-makefile-environment": "0.0.26-15",
+    "@virtualpatterns/mablung-source-map-support": "0.0.26-20",
+    "ava": "^3.15.0"
+  }
+}
