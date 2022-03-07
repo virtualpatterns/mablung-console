@@ -33,7 +33,6 @@
     "@virtualpatterns/mablung-check-dependency": "0.0.26-109",
     "@virtualpatterns/mablung-makefile-environment": "0.0.26-74",
     "@virtualpatterns/mablung-path": "^0.0.2-49",
-    "@virtualpatterns/mablung-source-map-support": "0.0.26-81",
     "ava": "^4.1.0"
   }
 }
