@@ -22,7 +22,7 @@
     "url": "https://github.com/virtualpatterns/mablung-console"
   },
   "type": "module",
-  "version": "0.0.2-96",
+  "version": "0.0.2-97",
   "dependencies": {
     "@virtualpatterns/mablung-configuration": "0.0.2-53",
     "fs-extra": "^10.0.1"
