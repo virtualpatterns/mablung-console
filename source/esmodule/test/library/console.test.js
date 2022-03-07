@@ -1,6 +1,6 @@
 import { Console } from '@virtualpatterns/mablung-console'
+import { Path } from '@virtualpatterns/mablung-path'
 import FileSystem from 'fs-extra'
-import Path from 'path'
 import Test from 'ava'
 
 const FilePath = __filePath

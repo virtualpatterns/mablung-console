@@ -10,9 +10,9 @@
   },
   "files": [
     "release/commonjs/library",
-    "release/commonjs/index.cjs",
+    "release/commonjs/index.*",
     "release/esmodule/library",
-    "release/esmodule/index.js"
+    "release/esmodule/index.*"
   ],
   "license": "GPL-3.0+",
   "main": "release/commonjs/index.cjs",
@@ -24,15 +24,16 @@
   "type": "module",
   "version": "0.0.2-91",
   "dependencies": {
-    "@virtualpatterns/mablung-configuration": "0.0.2-45",
-    "fs-extra": "^10.0.0"
+    "@virtualpatterns/mablung-configuration": "0.0.2-51",
+    "fs-extra": "^10.0.1"
   },
   "devDependencies": {
-    "@virtualpatterns/babel-preset-mablung-makefile-environment": "0.0.26-9",
-    "@virtualpatterns/eslint-config-mablung-makefile-environment": "0.0.26-9",
-    "@virtualpatterns/mablung-check-dependency": "0.0.26-37",
-    "@virtualpatterns/mablung-makefile-environment": "0.0.26-29",
-    "@virtualpatterns/mablung-source-map-support": "0.0.26-42",
-    "ava": "^3.15.0"
+    "@virtualpatterns/babel-preset-mablung-makefile-environment": "0.0.26-29",
+    "@virtualpatterns/eslint-config-mablung-makefile-environment": "0.0.26-26",
+    "@virtualpatterns/mablung-check-dependency": "0.0.26-109",
+    "@virtualpatterns/mablung-makefile-environment": "0.0.26-74",
+    "@virtualpatterns/mablung-path": "^0.0.2-49",
+    "@virtualpatterns/mablung-source-map-support": "0.0.26-81",
+    "ava": "^4.1.0"
   }
 }
