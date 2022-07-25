@@ -24,7 +24,7 @@
   "type": "module",
   "version": "0.0.2-101",
   "dependencies": {
-    "@virtualpatterns/mablung-configuration": "0.0.2-57",
+    "@virtualpatterns/mablung-configuration": "0.0.2-59",
     "fs-extra": "^10.1.0"
   },
   "devDependencies": {
@@ -33,6 +33,6 @@
     "@virtualpatterns/mablung-check-dependency": "0.0.26-125",
     "@virtualpatterns/mablung-makefile-environment": "0.0.26-89",
     "@virtualpatterns/mablung-path": "^0.0.2-55",
-    "ava": "^4.3.0"
+    "ava": "^4.3.1"
   }
 }
